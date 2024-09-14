@@ -18,4 +18,4 @@ COPY --from=build /app/out .
 
 EXPOSE 80
 
-ENTRYPOINT ["dotnet", "YourApp.dll"]
+ENTRYPOINT ["dotnet", "Zalo-mini-app-backend.dll"]
