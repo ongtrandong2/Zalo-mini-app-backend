@@ -37,7 +37,7 @@ namespace Zalo_mini_app_backend.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<string>("Name")
+                    b.Property<string>("Name")  
                         .IsRequired()
                         .HasColumnType("text");
 

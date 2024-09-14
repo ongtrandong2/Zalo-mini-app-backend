@@ -1,0 +1,12 @@
+{
+  "apps": [
+    {
+      "app_id": "app_1f2a40c1-f682-42d4-b971-361a8c1e5934",
+      "org_id": "user_37e16000-e45e-434b-a0c7-fdefd01f83e6",
+      "deploy_url": "https://push-n3-par-clevercloud-customers.services.clever-cloud.com/app_1f2a40c1-f682-42d4-b971-361a8c1e5934.git",
+      "git_ssh_url": "git+ssh://git@push-n3-par-clevercloud-customers.services.clever-cloud.com/app_1f2a40c1-f682-42d4-b971-361a8c1e5934.git",
+      "name": "Zalo-mini-App",
+      "alias": "Zalo-mini-App"
+    }
+  ]
+}
