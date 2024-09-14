@@ -1,0 +1,11 @@
+{
+  "deploy": {
+    "files": [
+      ".csproj",
+      "Program.cs",
+      "Startup.cs",
+      "appsettings.json"
+    ],
+    "branch": "main"
+  }
+}
