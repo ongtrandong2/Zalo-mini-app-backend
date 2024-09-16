@@ -11,7 +11,7 @@ using Zalo_mini_app_backend;
 namespace Zalo_mini_app_backend.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240913133539_InitialCreate")]
+    [Migration("20240916055058_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -83,6 +83,22 @@ namespace Zalo_mini_app_backend.Migrations
                             ImageUrl = "https://placehold.co/100x100",
                             Name = "Product 4",
                             Price = 250m
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Code = "P005",
+                            ImageUrl = "https://placehold.co/100x100",
+                            Name = "Product 5",
+                            Price = 300m
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Code = "P006",
+                            ImageUrl = "https://placehold.co/100x100",
+                            Name = "Product 6",
+                            Price = 25000m
                         });
                 });
 

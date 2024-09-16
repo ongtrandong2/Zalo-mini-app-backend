@@ -52,7 +52,9 @@ namespace Zalo_mini_app_backend.Migrations
                     { 1, "P001", "https://placehold.co/100x100", "Product 1", 100m },
                     { 2, "P002", "https://placehold.co/100x100", "Product 2", 150m },
                     { 3, "P003", "https://placehold.co/100x100", "Product 3", 200m },
-                    { 4, "P004", "https://placehold.co/100x100", "Product 4", 250m }
+                    { 4, "P004", "https://placehold.co/100x100", "Product 4", 250m },
+                    { 5, "P005", "https://placehold.co/100x100", "Product 5", 300m },
+                    { 6, "P006", "https://placehold.co/100x100", "Product 6", 25000m }
                 });
 
             migrationBuilder.InsertData(

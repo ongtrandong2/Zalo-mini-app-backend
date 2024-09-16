@@ -37,7 +37,7 @@ namespace Zalo_mini_app_backend.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<string>("Name")  
+                    b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("text");
 
@@ -80,6 +80,22 @@ namespace Zalo_mini_app_backend.Migrations
                             ImageUrl = "https://placehold.co/100x100",
                             Name = "Product 4",
                             Price = 250m
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Code = "P005",
+                            ImageUrl = "https://placehold.co/100x100",
+                            Name = "Product 5",
+                            Price = 300m
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Code = "P006",
+                            ImageUrl = "https://placehold.co/100x100",
+                            Name = "Product 6",
+                            Price = 25000m
                         });
                 });
 
