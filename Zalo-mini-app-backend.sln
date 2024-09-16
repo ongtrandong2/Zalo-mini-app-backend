@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35005.142
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zalo-mini-app-backend", "Zalo-mini-app-backend\Zalo-mini-app-backend.csproj", "{924A031A-F7D4-4542-A0A4-B0BA82582832}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zalo-mini-app-backend", "Zalo-mini-app-backend\Zalo-mini-app-backend.csproj", "{924A031A-F7D4-4542-A0A4-B0BA82582832}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C78BBF6C-2D6E-4F7E-AA15-666BF369322C}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		Dockerfile = Dockerfile
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

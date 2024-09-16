@@ -28,7 +28,9 @@ namespace Zalo_mini_app_backend
                 new Product { Id = 1, Name = "Product 1", Code = "P001", Price = 100m, ImageUrl = "https://placehold.co/100x100" },
                 new Product { Id = 2, Name = "Product 2", Code = "P002", Price = 150m, ImageUrl = "https://placehold.co/100x100" },
                 new Product { Id = 3, Name = "Product 3", Code = "P003", Price = 200m, ImageUrl = "https://placehold.co/100x100" },
-                new Product { Id = 4, Name = "Product 4", Code = "P004", Price = 250m, ImageUrl = "https://placehold.co/100x100" }
+                new Product { Id = 4, Name = "Product 4", Code = "P004", Price = 250m, ImageUrl = "https://placehold.co/100x100" },
+                new Product { Id = 5, Name = "Product 5", Code = "P005", Price = 300m, ImageUrl = "https://placehold.co/100x100" },
+                new Product { Id = 6, Name = "Product 6", Code = "P006", Price = 25000m, ImageUrl = "https://placehold.co/100x100" }
             );
         }
     }

@@ -42,5 +42,18 @@ namespace Zalo_mini_app_backend.Controllers
             _dbContext.SaveChanges();
             return CreatedAtAction(nameof(GetProduct), new { id = product.Id }, product);
         }
+        [HttpDelete("{id}")]
+        public IActionResult DeleteProduct(int id)
+        {
+            var product = _dbContext.Products.FirstOrDefault(p => p.Id == id);
+            if (product == null)
+            {
+                return NotFound();
+            }
+
+            _dbContext.Products.Remove(product);
+            _dbContext.SaveChanges();
+            return NoContent(); 
+        }
     }
 }
